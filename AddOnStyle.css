@@ -5,22 +5,8 @@ body {
 	margin:auto;
 }
 
-.donation-box {
-	background-color:#f5f5f5;
-	border: 1px solid #e3e3e3;
-	text-align:center;
-	width:75%;
-	margin:auto;
-}
 
 .text {
 	padding:10px;
 }
 
-select {
-	font-size:16px;
-	border: 1px solid #aaa;
-	border-radius: 10px;
-	width:auto;
-	max-width: 50%;
-}
