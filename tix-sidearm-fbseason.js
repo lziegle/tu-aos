@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	console.log("lz-loaded");
 	if ("ga" in window) {
 		tracker = ga.getAll()[0];
 		if (tracker) {
