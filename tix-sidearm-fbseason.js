@@ -10,7 +10,7 @@ $(document).ready(function(){
 				tracker.set('dimension2', sourceValue);
 				tracker.set('dimension4', contentValue);
 				tracker.send("event", "buy", "click", "fbSeasonBuyNow");
-			};
+			});
 			
 			//Top Navs
 			$("#fbSeasonTixHomeTop").click(function(){
