@@ -12,7 +12,7 @@ $(document).ready(function(){
 			});
 			
 			$("#fbPartialSeasonTop").click(function(){
-				tracker.send("event", "nav", "click", "fbPartialPartialTop");
+				tracker.send("event", "nav", "click", "fbPartialSeasonTop");
 			});
 			
 			$("#fbPartialSingleTop").click(function(){
@@ -50,7 +50,7 @@ $(document).ready(function(){
 			});
 			
 			$("#fbPartialSeasonBtm").click(function(){
-				tracker.send("event", "nav", "click", "fbPartialPartialBtm");
+				tracker.send("event", "nav", "click", "fbPartialSeasonBtm");
 			});
 			
 			$("#fbPartialSingleBtm").click(function(){
