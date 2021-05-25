@@ -17,8 +17,8 @@ $(document).ready(function(){
 			});
 			
 			$(".tixnav").on("click", function(event){
-				event.stopPropogation();
-				event.stopImmediatePropogation();
+				// event.stopPropogation();
+				// event.stopImmediatePropogation();
 				var evLabel = $(this).attr("id");
 				console.log(evLabel);
 				window.tracker.send("event", "nav", "click", evLabel);
