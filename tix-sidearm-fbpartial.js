@@ -1,7 +1,9 @@
 $(document).ready(function(){
 	var lz_test = "added";
 	if ("ga" in window) {
-		tracker = ga.getAll()[0];
+		ga(function() {
+			var tracker = ga.getAll()[0];
+		});
 		if (tracker) {	
 			console.log("tracker found");
 			$(".tixnav").on("click", function(event){
