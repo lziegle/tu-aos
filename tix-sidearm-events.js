@@ -16,7 +16,7 @@ $(document).ready(function(){
 				window.tracker.send("event", "buy", "click", "fbSeasonBuyNow");
 			});
 			
-			$(".tixnav").on("click", function(event){
+			$(".tixnav").click(function(event){
 				// event.stopPropogation();
 				// event.stopImmediatePropogation();
 				var evLabel = $(this).attr("id");
