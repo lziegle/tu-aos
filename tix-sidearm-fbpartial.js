@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	var lz_test = "added";
+	var tracker = '';
 	if ("ga" in window) {
 		ga(function() {
 			var tracker = ga.getAll()[0];
