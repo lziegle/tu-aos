@@ -11,9 +11,9 @@ $(document).ready(function(){
 				var sourceValue = 'fb.season';
 				var contentValue = 'btn.top';
 			
-				tracker.set('dimension2', sourceValue);
-				tracker.set('dimension4', contentValue);
-				tracker.send("event", "buy", "click", "fbSeasonBuyNow");
+				window.tracker.set('dimension2', sourceValue);
+				window.tracker.set('dimension4', contentValue);
+				window.tracker.send("event", "buy", "click", "fbSeasonBuyNow");
 			});
 			
 			$(".tixnav").on("click", function(event){
@@ -21,7 +21,7 @@ $(document).ready(function(){
 				event.stopImmediatePropogation();
 				var evLabel = $(this).attr("id");
 				console.log(evLabel);
-				tracker.send("event", "nav", "click", evLabel);
+				window.tracker.send("event", "nav", "click", evLabel);
 			});
 		}
 	}
