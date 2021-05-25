@@ -3,9 +3,9 @@ $(document).ready(function(){
 	var tracker = '';
 	if ("ga" in window) {
 		ga(function() {
-			var tracker = ga.getAll()[0];
+			window.tracker = ga.getAll()[0];
 		});
-		if (tracker) {	
+		if (window.tracker) {	
 			console.log("tracker found");
 			$("#fbSeasonBuyNow").click(function(){
 				var sourceValue = 'fb.season';
