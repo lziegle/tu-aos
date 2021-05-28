@@ -6,7 +6,6 @@ $(document).ready(function(){
 			window.tracker = ga.getAll()[0];
 		});
 		if (window.tracker) {	
-			console.log("tracker found");
 			$("#fbSeasonBuyNow").click(function(){
 				var sourceValue = 'fb.season';
 				var contentValue = 'btn.top';
@@ -14,6 +13,42 @@ $(document).ready(function(){
 				window.tracker.set('dimension2', sourceValue);
 				window.tracker.set('dimension4', contentValue);
 				window.tracker.send("event", "buy", "click", "fbSeasonBuyNow");
+			});
+			
+			$("#fbAwayCincyBuy").click(function(){
+				var sourceValue = 'fb.away';
+				var contentValue = 'btn.card';
+			
+				window.tracker.set('dimension2', sourceValue);
+				window.tracker.set('dimension4', contentValue);
+				window.tracker.send("event", "buy", "click", "fbAwayCincy");
+			});
+			
+			$("#fbAwayUSFBuy").click(function(){
+				var sourceValue = 'fb.away';
+				var contentValue = 'btn.card';
+			
+				window.tracker.set('dimension2', sourceValue);
+				window.tracker.set('dimension4', contentValue);
+				window.tracker.send("event", "buy", "click", "fbAwayUSF");
+			});
+			
+			$("#fbAwayECUBuy").click(function(){
+				var sourceValue = 'fb.away';
+				var contentValue = 'btn.card';
+			
+				window.tracker.set('dimension2', sourceValue);
+				window.tracker.set('dimension4', contentValue);
+				window.tracker.send("event", "buy", "click", "fbAwayECU");
+			});
+			
+			$("#fbAwayTulsaBuy").click(function(){
+				var sourceValue = 'fb.away';
+				var contentValue = 'btn.card';
+			
+				window.tracker.set('dimension2', sourceValue);
+				window.tracker.set('dimension4', contentValue);
+				window.tracker.send("event", "buy", "click", "fbAwayTulsa");
 			});
 			
 			$(".tixnav").click(function(event){
