@@ -51,6 +51,24 @@ $(document).ready(function(){
 				window.tracker.send("event", "buy", "click", "fbAwayTulsa");
 			});
 			
+			$("#fbAwayRutgersBuy").click(function(){
+				var sourceValue = 'fb.away';
+				var contentValue = 'btn.card';
+			
+				window.tracker.set('dimension2', sourceValue);
+				window.tracker.set('dimension4', contentValue);
+				window.tracker.send("event", "buy", "click", "fbAwayRutgers");
+			});
+			
+			$("#fbAwayAkronBuy").click(function(){
+				var sourceValue = 'fb.away';
+				var contentValue = 'btn.card';
+			
+				window.tracker.set('dimension2', sourceValue);
+				window.tracker.set('dimension4', contentValue);
+				window.tracker.send("event", "buy", "click", "fbAwayAkron");
+			});
+			
 			$(".tixnav").click(function(event){
 				// event.stopPropogation();
 				// event.stopImmediatePropogation();
