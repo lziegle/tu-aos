@@ -15,6 +15,15 @@ $(document).ready(function(){
 				window.tracker.send("event", "buy", "click", "fbSeasonBuyNow");
 			});
 			
+			$("#fbGroupDeposit").click(function(){
+				var sourceValue = 'fb.group';
+				var contentValue = 'btn.mid';
+			
+				window.tracker.set('dimension2', sourceValue);
+				window.tracker.set('dimension4', contentValue);
+				window.tracker.send("event", "buy", "click", "fbGroupDeposit");
+			});
+			
 			$("#fbAwayCincyBuy").click(function(){
 				var sourceValue = 'fb.away';
 				var contentValue = 'btn.card';
