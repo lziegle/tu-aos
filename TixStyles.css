@@ -1,0 +1,175 @@
+
+/* Used in column divs to align content */
+.tix-flex-center {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	text-decoration:none;
+	flex-wrap:wrap;
+}
+
+.black {
+	background-color:black;
+	color:white;
+}
+
+.gray {
+	background-color:#8A8D8F;
+	color:black;
+}
+
+.cherry {
+	background-color:#990033;
+	color:white;
+}
+
+.tix-btn {
+	padding:20px 25px 20px 25px;
+	border-radius:10px;
+	text-decoration:none;
+	font-weight:bold;
+	transition: all .1s ease-in-out;
+}
+
+.tix-btn:hover {
+	padding:20px 25px 20px 25px;
+	border-radius:10px;
+	text-decoration:none;
+	transform: scale(1.1);
+}
+
+.tix-disc {
+	text-decoration:none;
+	width:200px;
+	height:200px;
+	font-size:2em;
+	word-wrap: normal;
+	padding:10px;
+	border-radius:50%;
+	transition: all .1s ease-in-out;
+	
+}
+
+.tix-disc:hover {
+	transform: scale(1.1);
+	background-color:black;
+	color:#990033;
+}
+
+.tix-card {
+	border:1px solid #d3d3d3;
+	border-radius:.25rem;
+	width:100%;
+	
+}
+
+.tix-card:hover {
+	cursor:pointer;
+}
+
+.tix-card-img.away-cincy{
+	background-image:url('https://owlsports.com/images/2021/5/28/FB_SingleGameEvents_atCincinnati.jpg');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
+
+.tix-card-img.away-USF{
+	background-image:url('https://owlsports.com/images/2021/5/28/FB_SingleGameEvents_atUSF.jpg');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
+
+.tix-card-img.away-ECU{
+	background-image:url('https://owlsports.com/images/2021/5/28/FB_SingleGameEvents_atECU.jpg');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
+
+.tix-card-img.away-tulsa{
+	background-image:url('https://owlsports.com/images/2021/5/28/FB_SingleGameEvents_atTulsa.jpg');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+	
+}
+
+.tix-card-img.away-rutgers{
+	background-image:url('https://owlsports.com/images/2021/6/2/FB_SingleGameEvents_atRutgers.jpg');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+	
+}
+
+.tix-card-img.away-akron{
+	background-image:url('https://owlsports.com/images/2021/6/2/FB_SingleGameEvents_atAkron.jpg');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+	
+}
+
+.tix-card-content {
+	padding:15px;
+}
+
+.tix-card-content b {
+	font-size:22px;
+	padding-bottom:20px;
+}
+
+@media screen and (min-width: 600px) {
+	.horiz-scroll-mobile {
+		flex-wrap:nowrap;
+		overflow-x: auto;
+	}
+}
+
+.horiz-scroll-mobile {
+	flex-wrap:wrap;
+	overflow-x:auto;
+}
+
+.disc-container a {
+	padding:10px;
+}
+
+.tix-header {
+	text-align: center;
+	color: #990033;
+	font-size: 4em;
+	margin:0;
+	font-family:"United Serif Condensed, serif";
+	padding:10px;
+}
+
+.tix-header-3 {
+	text-align: center;
+	color: #990033;
+	font-size: 2em;
+	margin:0;
+	font-family:"United Serif Condensed, serif";
+	padding: 10px;
+}
+
+.diamond-bg {
+	background-image:url("https://lh3.googleusercontent.com/pw/ACtC-3cCshVTWCGTCOr_u-Yv60UctVVXIsXMWAsAPkZEP9kfexJYBN2P91RI9rq0srbMTz-JlVZBV9MnvkZ16lz0C3BGpIUVN7YASAFidWzTWJAJgPpH1XvTbD8QyNCCWTJu9xCaO7GfjR2BDWP159ffstoY=s240-no?authuser=0");
+}
+		
+	
+	
+
+  		
+  		
+		
+		
