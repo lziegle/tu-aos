@@ -6,15 +6,6 @@ $(document).ready(function(){
 			window.tracker = ga.getAll()[0];
 		});
 		if (window.tracker) {	
-			$("#fbSeasonBuyNow").click(function(){
-				var sourceValue = 'fb.season';
-				var contentValue = 'btn.top';
-			
-				window.tracker.set('dimension2', sourceValue);
-				window.tracker.set('dimension4', contentValue);
-				window.tracker.send("event", "buy", "click", "fbSeasonBuyNow");
-			});
-			
 			$("#fbGroupDeposit").click(function(){
 				var sourceValue = 'fb.group';
 				var contentValue = 'btn.mid';
@@ -76,6 +67,16 @@ $(document).ready(function(){
 				window.tracker.set('dimension2', sourceValue);
 				window.tracker.set('dimension4', contentValue);
 				window.tracker.send("event", "buy", "click", "fbAwayAkron");
+			});
+			
+			$(".tix-itm").click(function(event){
+				var evLabel = $(this).attr("id");
+				var sourceValue = $(this).attr("data-source");
+				var contentValue = $(this).attr("data-content");
+				
+				window.tracker.set('dimension2', sourceValue);
+				window.tracker.set('dimension4', contentValue);
+				window.tracker.send("event", "buy", "click", evLabel);
 			});
 			
 			$(".tixnav").click(function(event){
