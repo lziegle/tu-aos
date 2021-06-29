@@ -5,11 +5,12 @@ link.rel = 'shortcut icon';
 link.href = 'https://am-prod-client-files.ppub-tmaws.io/temple/s3fs-public/favicon_temple.ico';
 document.getElementsByTagName('head')[0].appendChild(link);
 
-//hide each line
-var SHide = $('[name^="renewSH"]');
-for (x in sHide) {
-  $(sHide[x]).hide();
-}
+//hide each input
+$('td[id^="specreqCell_"]').each(function(){$(this).css("visibility","hidden")});
+
+
+//create main input boxes
+
 
 //fill in value from main question to each indiv line
 function fillSH() {
