@@ -19,5 +19,6 @@ $(document).ready(function(){
     var SHlist = $('[name^="renewSH"]');
     for (i in SHlist) {
       SHlist[i].value = SHinput;
+      }
   }
   });
