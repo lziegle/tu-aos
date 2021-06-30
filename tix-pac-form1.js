@@ -6,8 +6,9 @@ $(document).ready(function(){
   link.href = 'https://am-prod-client-files.ppub-tmaws.io/temple/s3fs-public/favicon_temple.ico';
   document.getElementsByTagName('head')[0].appendChild(link);
 
-  //hide each input
+  //hide each input & make boxes smaller
   $('td[id^="specreqCell_"]').each(function(){$(this).css("visibility","hidden")});
+  $(".hideSpecialRequests").hide()
 
 
   //create main input boxes
