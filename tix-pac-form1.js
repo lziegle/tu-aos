@@ -22,7 +22,7 @@ $(document).ready(function(){
 	var SHinput2 = $("#2122upg").val()
     var SHlist = $('[name^="renewSH"]');
     for (i in SHlist) {
-      SHlist[i].value = "12mth: "+SHinput+<br>+ "upg: "+SHinput2;
+      SHlist[i].value = "12mth: "+SHinput+" /// "+ "upg: "+SHinput2;
       }});
 	
    $("#2122upg").on('change', function(){
@@ -30,7 +30,7 @@ $(document).ready(function(){
 	var SHinput2 = $("#12monthauto").val()
     var SHlist = $('[name^="renewSH"]');
     for (i in SHlist) {
-      SHlist[i].value = "upg: "+SHinput+<br>+ "12mth: " + SHinput2;
+      SHlist[i].value = "upg: "+SHinput+" /// "+ "12mth: " + SHinput2;
       }});
 });
 
