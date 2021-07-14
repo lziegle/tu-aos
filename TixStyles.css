@@ -39,6 +39,16 @@
 	transform: scale(1.1);
 }
 
+.tix-btn.cherry:hover {
+	padding:20px 25px 20px 25px;
+	border-radius:10px;
+	text-decoration:none;
+	background-color:black;
+	border:1px solid #990033;
+	color:#990033;
+	transform: scale(1.1);
+}
+
 .tix-disc {
 	text-decoration:none;
 	width:200px;
@@ -221,7 +231,32 @@
 	opacity: .7;
 }	
 	
+.tix-tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
 
+/* Tooltip text */
+.tix-tooltip .tix-tooltiptext {
+  visibility: hidden;
+  width: auto;
+  min-width: 400px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tix-tooltip:hover .tix-tooltiptext {
+  visibility: visible;
+}
   		
   		
 		
