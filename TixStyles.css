@@ -260,6 +260,39 @@
 .tix-no-bullet {
 	list-style-type:none;
 }
+
+.tix-table {
+	text-align:center;
+	margin:auto;
+	margin-top:15px;
+	margin-bottom:15px;
+	border-collapse: collapse;
+	border:none;
+	padding: 15px;
+}
+	
+.tix-table tr,td,th {
+	border:2px solid gray;
+	padding:.33rem;
+}
+	
+.tix-table-title {
+	border:none;
+	background-color:#990033;
+	color:white;
+	font-size:18px;
+}
+	
+.tix-table th {
+	background-color:lightgray;
+}
+
+	
+@media only screen and (max-width: 650px) {
+	tix-mob-remove {
+		display:none;
+	}	
+}
   		
 		
 		
