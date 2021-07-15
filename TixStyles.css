@@ -32,6 +32,11 @@
 	transition: all .1s ease-in-out;
 }
 
+.tix-btn.cherry {
+	background-color:#990033;
+	color:white;
+}
+
 .tix-btn:hover {
 	padding:20px 25px 20px 25px;
 	border-radius:10px;
