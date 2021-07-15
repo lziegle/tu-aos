@@ -37,17 +37,31 @@
 	color:white;
 }
 
-.tix-btn:hover {
+.tix-btn.black:hover {
 	padding:20px 25px 20px 25px;
 	border-radius:10px;
 	text-decoration:none;
 	transform: scale(1.1);
+	background-color:white;
+	border:4px solid black;
+	color:black;
+}
+
+.tix-btn.gray:hover {
+	padding:20px 25px 20px 25px;
+	border-radius:10px;
+	text-decoration:none;
+	transform: scale(1.1);
+	background-color:white;
+	border:4px solid gray;
+	color:gray;
 }
 
 .tix-btn.cherry:hover {
 	padding:20px 25px 20px 25px;
 	border-radius:10px;
 	text-decoration:none;
+	transform: scale(1.1);
 	background-color:black;
 	border:4px solid #990033;
 	color:#990033;
