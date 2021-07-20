@@ -326,6 +326,10 @@
     url("http://db.onlinewebfonts.com/t/75c1d81c4069038b3f562e45a515e7ad.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
     url("http://db.onlinewebfonts.com/t/75c1d81c4069038b3f562e45a515e7ad.svg#United Sans Cond") format("svg"); /* iOS 4.1- */
 }
+
+.tix-header-3 {
+	font-family: United Serif Condensed, serif;
+}
   		
 		
 		
