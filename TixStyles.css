@@ -325,6 +325,9 @@
 
 .tix-header-1 {
 	font-size: 72px;
+	font-color:black;
+	font-weight:bold;
+	text-align:center;
 	font-family: United Serif Condensed, serif;
 }
   		
