@@ -8,9 +8,7 @@
   
   var games = getElementsByClassName('cust-HomeGame');
   for (item in games) {
-    item.ClassList.add("btn btn-primary btn-sm btn-block");
-    console.log(item);
-    console.log('read');
+    games[item].classList.add('btn', 'btn-primary', 'btn-sm', 'btn-block');
   }
 
 ;
