@@ -461,4 +461,125 @@
 	background-color:#ccc;
 
 }	
+/*		Wb single card images*/
+.tix-card-img.wb-SFU{
+	background-image:url('https://owlsports.com/images/logos/St_Francis_PA.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
 
+.tix-card-img.wb-StJohns{
+	background-image:url('https://owlsports.com/images/logos/Saint_Johns.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
+
+.tix-card-img.wb-Bucknell{
+	background-image:url('https://owlsports.com/images/logos/bucknell_logo.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
+
+.tix-card-img.wb-LaSalle{
+	background-image:url('https://owlsports.com/images/logos/j17.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+
+}
+.tix-card-img.wb-Princeton{
+	background-image:url('https://owlsports.com/images/logos/Princeton_Tigers.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
+
+.tix-card-img.wb-StJoes{
+	background-image:url('https://owlsports.com/images/logos/ST_Joseph.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
+
+.tix-card-img.wb-ODU{
+	background-image:url('https://owlsports.com/images/logos/OldDominion.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
+
+.tix-card-img.wb-UCF{
+	background-image:url('https://owlsports.com/images/logos/UCF.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+
+}
+.tix-card-img.wb-Houston{
+	background-image:url('https://owlsports.com/images/logos/houston.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
+
+.tix-card-img.wb-ECU{
+	background-image:url('https://owlsports.com/images/logos/East-Carolina.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
+
+.tix-card-img.wb-WSU{
+	background-image:url('https://owlsports.com/images/logos/Wichitia-State.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
+
+.tix-card-img.wb-Cincy{
+	background-image:url('https://owlsports.com/images/logos/University-of-Cincinnati.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+
+}
+
+.tix-card-img.wb-SMU{
+	background-image:url('https://owlsports.com/images/logos/Southern-Methodist-University.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
+
+.tix-card-img.wb-Tulane{
+	background-image:url('https://owlsports.com/images/logos/Tulane-Wave.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+}
+
+.tix-card-img.wb-USF{
+	background-image:url('https://owlsports.com/images/logos/South_Florida.png');
+	background-size:cover;
+	min-height:250px;
+	background-position:center;
+	background-color:#ccc;
+
+}
