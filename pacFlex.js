@@ -1,1 +1,5 @@
-console.log('ziegl ready');
+function start(){
+  console.log('ziegl ready');
+}
+
+start();
